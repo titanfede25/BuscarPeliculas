@@ -1,0 +1,58 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.bodyback{
+    background-image: url("https://besthqwallpapers.com/Uploads/3-12-2020/147986/thumb2-music-neon-icon-4k-violet-background-neon-symbols-music.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  form {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  label {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
