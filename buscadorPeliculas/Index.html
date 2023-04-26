@@ -13,7 +13,7 @@
     <form>
     <label>Elegí una pelicula, serie o episodio:</label>
     <select id="tipo">
-        <option value="">*Vacío"</option>
+        <option value="A">*Vacío"</option>
         <option value="movie">Pelicula</option>
         <option value="series">Serie</option>
         <option value="episode">Episodio</option>
@@ -22,6 +22,9 @@
     <input id="texto" type="text" placeholder="Escriba el nombre" required>
     <button type="submit"onclick="obtener(event)">Obtener</button>
     </form>
+
+    <table id="table"></table>
+
     <script src ="js.js"></script>  
 </body>
 
