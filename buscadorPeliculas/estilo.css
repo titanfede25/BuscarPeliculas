@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+  float: center;
+}
 body 
 {
   margin: left;
@@ -11,12 +15,6 @@ body
     padding:2% 2%; 
     margin-top: auto;
 }
-
-*{
-  font-family: sans-serif;
-  float: center;
-}
-
 button
 {
   background-color:rgb(226, 199, 247);
@@ -52,15 +50,13 @@ tr{
 td{
   border: black;
   background-color:rgb(168, 168, 241);
-  
 }
 table, th, td {
   border-collapse: collapse;
   border: 1px solid;
-
+  border-color: rgb(126, 126, 182);
 }
-
-/*
-tr{
-  table-info
-}*/
+table{
+  border-radius: 50%;
+  background:linear-gradient(rgb(168, 168, 241), rgb(148, 29, 88));
+}
