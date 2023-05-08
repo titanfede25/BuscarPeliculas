@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
+    <div class="diseñito">
     <h1>Buscador de Peliculas</h1>
     <form>
     <label>Elegí una pelicula, serie o episodio:</label>
     <select id="tipo">
-        <option value="A">*Vacío"</option>
         <option value="movie">Pelicula</option>
+        <option value="">*Vacío*</option>
         <option value="series">Serie</option>
         <option value="episode">Episodio</option>
     </select>
@@ -22,6 +23,7 @@
     <input id="texto" type="text" placeholder="Escriba el nombre" required>
     <button type="submit"onclick="obtener(event)">Obtener</button>
     </form>
+    </div>
 
     <table id="table"></table>
 
