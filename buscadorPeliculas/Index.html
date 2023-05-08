@@ -10,9 +10,9 @@
 
 <body>
     <div class="diseñito">
-    <h1>Buscador de Peliculas</h1>
+    <h1><u>Buscador de Peliculas</u></h1>
     <form>
-    <label>Elegí una pelicula, serie o episodio:</label>
+    <label><b>Elegí una pelicula, serie o episodio:</b></label>
     <select id="tipo">
         <option value="movie">Pelicula</option>
         <option value="">*Vacío*</option>
@@ -21,12 +21,12 @@
     </select>
     <input id="anio" type="number" placeholder="Escriba el año de lanzamiento">
     <input id="texto" type="text" placeholder="Escriba el nombre" required>
-    <button type="submit"onclick="obtener(event)">Obtener</button>
+    <button type="submit"onclick="obtener(event)"><b>Obtener</b></button>
     </form>
     </div>
-
-    <table id="table"></table>
-
+    <div class="tablita">
+    <b><table id="table"></table></b>
+    </div>
     <script src ="js.js"></script>  
 </body>
 

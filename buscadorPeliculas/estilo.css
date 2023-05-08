@@ -7,14 +7,59 @@ body
   background-attachment: fixed;
 }
 .diseñito{
-  background-color: #e949e1bd;
-    padding:25px 25px; 
+  background-color: #e949e18e;
+    padding:2% 2%; 
     margin-top: auto;
 }
 
 *{
-  font-family: Arial;
+  font-family: sans-serif;
+  float: center;
 }
+
+button
+{
+  background-color:rgb(226, 199, 247);
+  border: none;
+  border-radius:25px;
+  outline:none;
+  width: 4%;
+}
+input, select
+{
+  background-color:rgb(168, 168, 241);
+  border: none;
+  border-radius:6%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::placeholder{
+  color: black;
+}
+.tablita{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+tr{
+  background-color:rgb(126, 126, 182);
+}
+td{
+  border: black;
+  background-color:rgb(168, 168, 241);
+  
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid;
+
+}
+
 /*
 tr{
   table-info

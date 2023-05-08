@@ -35,7 +35,5 @@ const obtener = (e) =>{
             contenido.appendChild(contenidoAnio);
             document.getElementById("table").appendChild(contenido);
         })
-        /*document.getElementsByTagName("td").classList.add("table-info");
-        document.getElementsByTagName("tr").classList.add("table-primary");*/
     })
 }
